@@ -48,7 +48,7 @@ $(document).ready(function () {
     var successMessage = $("<div>")
       .attr("id", "successMessage")
       .addClass("alert alert-success mt-3")
-      .text("Event has been added to calendar!")
+      .text("Event has been added to scheduler!")
       .hide()
       .appendTo("header")
       .fadeIn()
@@ -101,7 +101,5 @@ $(document).ready(function () {
 
     // Clear the text in all textareas
     $(".description").val("");
-
   });
 });
-
